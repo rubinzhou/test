@@ -9,9 +9,9 @@
 	   
 2. Enter SDK folder:/home/esp8266/Share/ESP8266_RTOS_SDK, Copy example folder "app" next to bin/ folder in the SDK folder; copy folder "openssl" to include/; copy "libmbedtls.a" and "libopenssl.a" to lib/. The SDK folder should have folders inside it like : bin, examples, third party... 
 
-If you want to test the openSSL client demo: you should use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c". 
+	If you want to test the openSSL client demo: you should use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c". 
 
-If you want to test the openSSL client demo: You should not use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c".
+	If you want to test the openSSL client demo: You should not use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c".
 	   
 3. Enter example folder, run ./gen_misc.sh, and follow below steps to fininsh the sample code compile:
 	
@@ -40,6 +40,6 @@ If you want to test the openSSL client demo: You should not use the defination "
 On ESP8266 Dev Board, connect a serial terminal at 74880 Baud Rate. 
 IF you test the openSSL client demo:you can see it will download the "www.baidu.com" main page and print the context
 IF you want to test the openSSL client demo: 
-1. You should input the context of "https://192.168.17.128", the IP of your module may not be 192.168.17.128, you should input your module's IP
-2. You may see that it shows the website is not able to be trusted, that you should select that "go on visit it again"
-3. You should wait for a moment until your see the "hello word" in your IE page.
+	1. You should input the context of "https://192.168.17.128", the IP of your module may not be 192.168.17.128, you should input your module's IP
+	2. You may see that it shows the website is not able to be trusted, that you should select that "go on visit it again"
+	3. You should wait for a moment until your see the "hello word" in your IE page.
