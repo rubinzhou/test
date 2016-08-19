@@ -7,8 +7,11 @@
        
 		git clone https://github.com/espressif/ESP8266_RTOS_SDK.git 
 	   
-2. Enter SDK folder:/home/esp8266/Share/ESP8266_RTOS_SDK, Copy example folder "app" next to bin/ folder in the SDK folder; copy folder "openssl" to include/; copy "libmbedtls.a" and "libopenssl.a" to lib/. The SDK folder should have folders inside it like : bin, examples, third party... If you want to test the openSSL client demo:
-you should use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c". If you want to test the openSSL client demo: You should not use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c".
+2. Enter SDK folder:/home/esp8266/Share/ESP8266_RTOS_SDK, Copy example folder "app" next to bin/ folder in the SDK folder; copy folder "openssl" to include/; copy "libmbedtls.a" and "libopenssl.a" to lib/. The SDK folder should have folders inside it like : bin, examples, third party... 
+
+If you want to test the openSSL client demo: you should use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c". 
+
+If you want to test the openSSL client demo: You should not use the defination "#define DEMO_CLIENT" int the file "ESP8266_RTOS_SDK\openssl_demo\programs\openssl_demo.c".
 	   
 3. Enter example folder, run ./gen_misc.sh, and follow below steps to fininsh the sample code compile:
 	
