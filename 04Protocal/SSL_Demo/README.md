@@ -40,6 +40,11 @@
 On ESP8266 Dev Board, connect a serial terminal at 74880 Baud Rate. 
 IF you test the openSSL client demo:you can see it will download the "www.baidu.com" main page and print the context
 IF you want to test the openSSL client demo: 
+
 	1. You should input the context of "https://192.168.17.128", the IP of your module may not be 192.168.17.128, you should input your module's IP
+	
 	2. You may see that it shows the website is not able to be trusted, that you should select that "go on visit it again"
+	
 	3. You should wait for a moment until your see the "hello word" in your IE page.
+	 
+	
